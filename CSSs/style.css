@@ -9,6 +9,36 @@
 html {
   font-size: 62.5%;
 }
+
+/* REUSABLE CSS */
+
+.reusable-btn {
+  padding: 1.2rem 4rem;
+  border-radius: 50px;
+  background: linear-gradient(90deg, #1ad7be, #1f67e7);
+  border: none;
+  cursor: pointer;
+  transition: 0.5s;
+  font-size: 2rem;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+}
+
+.reusable-btn:hover {
+  background: linear-gradient(90deg, #1f67e7, #1ad7be);
+}
+
+.back-white--btn {
+  background: none;
+  color: black;
+  border: 1px solid #3e4757;
+}
+
+.back-white--btn:hover {
+  background: none;
+}
+
 /* SECTION NAV */
 /*********************************/
 .back-img {
@@ -75,3 +105,87 @@ html {
   align-items: center;
   justify-content: space-between;
 }
+
+/*********************************/
+/* SECTION HERO */
+/*********************************/
+.section-hero {
+  padding: 14rem 40rem;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.hero-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.lower-hero--text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.highlate-text {
+  display: flex;
+  gap: 2rem;
+}
+
+.hero-h1 {
+  font-size: 7rem;
+  font-weight: 600;
+  line-height: 65px;
+  text-align: center;
+}
+
+.highlated {
+  background-image: linear-gradient(90deg, #1ad7be, #1f67e7);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.hero-icon {
+  height: 5rem;
+  width: 5rem;
+  color: transparent;
+}
+.hero-para {
+  padding: 0 30rem;
+}
+.hero-desc {
+  font-size: 2.4rem;
+  line-height: 3rem;
+  font-weight: 400;
+  color: #3e4757;
+  text-align: center;
+}
+
+.hero-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6rem;
+}
+
+.demo-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.demo-icon {
+  height: 2rem;
+  width: 2rem;
+}
+/*********************************/
