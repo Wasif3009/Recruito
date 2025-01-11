@@ -129,16 +129,11 @@ html {
   gap: 2rem;
 }
 
-.lower-hero--text {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 2rem;
-}
-
 .highlate-text {
-  display: flex;
-  gap: 2rem;
+  background-image: linear-gradient(90deg, #1ad7be, #1f67e7);
+  -webkit-background-clip: text;
+  color: transparent;
+  margin-left: 2rem;
 }
 
 .hero-h1 {
@@ -148,20 +143,10 @@ html {
   text-align: center;
 }
 
-.highlated {
-  background-image: linear-gradient(90deg, #1ad7be, #1f67e7);
-  -webkit-background-clip: text;
-  color: transparent;
-}
-
-.hero-icon {
-  height: 5rem;
-  width: 5rem;
-  color: transparent;
-}
 .hero-para {
   padding: 0 30rem;
 }
+
 .hero-desc {
   font-size: 2.4rem;
   line-height: 3rem;
