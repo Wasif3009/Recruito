@@ -173,4 +173,10 @@ html {
   height: 2rem;
   width: 2rem;
 }
+
+.hero-icon {
+  height: 3.5rem;
+  width: 3.5rem;
+  margin-bottom: 1.8rem;
+}
 /*********************************/
