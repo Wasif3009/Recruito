@@ -89,7 +89,7 @@ html {
   background: linear-gradient(90deg, #1ad7be, #1f67e7);
   border: none;
   cursor: pointer;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 .contact-us a {
   font-size: 2rem;
