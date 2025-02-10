@@ -75,7 +75,7 @@ html {
   font-size: 1.6rem;
   text-transform: uppercase;
   font-weight: 600;
-  transition: 0.3s;
+  transition: 0.5s;
 }
 .nav-mid li a:hover {
   background-image: linear-gradient(90deg, #1ad7be, #1f67e7);
